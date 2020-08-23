@@ -3,7 +3,7 @@ function convert(){
     var txt = window.document.querySelector('input#cxtxt')
 
     var n1 = Number(txt.value)
-    var n2 = 5.555555555555555
+    var n2 = 5.319148936170213
     var tib = n1 / n2
     ver.innerHTML = `<p>Pela a quantia de ${n1} Tibia Coins você rescebera <strong>${tib}.00R$</strong> </p>`
     txt.value = ''
