@@ -7,14 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>
+    <h2>
         Converso Tibia
-    </h1>
+    </h2>
+    <div id="topo">
+        Digite R$ - <input type="number" name="cxreas"                 id="cxreas">
+        Cada - <input type="number" name="cxtib" id="cxtib">
+        <input id="aplic" type="button" value="Aplicar"                 onclick="aplicar()">
+    </div>
     <div id="des">
         <img src="imagem/tibia.png" alt="tibia">
     </div>
     <div id="dan">
-        
         Digite Tibia Coins - <input type="number" name="cxtxt" id="cxtxt">
         <input type="button" value="converter" onclick="convert()">
         <div id="res">
